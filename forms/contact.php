@@ -5,7 +5,7 @@ $email = $_POST['email'];
 $subjec = $_POST['subjec'];
 $messag = $_POST['messag'];
 
-if(!empty($username) || !empty($email) || !empty($subject) || !empty($message)) {
+if(!empty($username) || !empty($email) || !empty($subjec) || !empty($messag)) {
   $host = "localhost";
   $dbUsername = "root";
   $dbPassword = "";
@@ -48,4 +48,6 @@ if(!empty($username) || !empty($email) || !empty($subject) || !empty($message)) 
  
 ?>
 
-
+<script type="text/javascript">
+  window.location="../index.html";
+</script>
